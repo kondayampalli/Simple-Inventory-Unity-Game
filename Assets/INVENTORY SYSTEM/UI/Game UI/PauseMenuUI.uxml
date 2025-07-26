@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/INVENTORY%20SYSTEM/UI/Game%20UI/GameUI.uss?fileID=7433441132597879392&amp;guid=000199fd366883444be1479fcaa612a2&amp;type=3#GameUI" />
+    <ui:VisualElement name="PauseMenuContainer" class="full-screen-container overlay">
+        <ui:VisualElement name="PausePanel" class="pause-panel">
+            <ui:Label text="PAUSED" name="PauseTitle" class="pause-title" />
+            <ui:VisualElement name="PauseButtonContainer" class="button-container">
+                <ui:Button text="Resume" name="ResumeButton" class="menu-button primary-button" />
+                <ui:Button text="Restart" name="RestartButton" class="menu-button secondary-button" />
+                <ui:Button text="Main Menu" name="MainMenuButton" class="menu-button secondary-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

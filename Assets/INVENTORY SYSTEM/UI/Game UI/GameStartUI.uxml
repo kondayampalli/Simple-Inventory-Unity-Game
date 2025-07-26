@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/INVENTORY%20SYSTEM/UI/Game%20UI/GameUI.uss?fileID=7433441132597879392&amp;guid=000199fd366883444be1479fcaa612a2&amp;type=3#GameUI" />
+    <ui:VisualElement name="GameStartContainer" class="full-screen-container">
+        <ui:VisualElement name="TitleContainer" class="title-container">
+            <ui:Label text="KBH Store" name="GameTitle" class="game-title" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ButtonContainer" class="button-container">
+            <ui:Button text="Start Game" name="StartButton" class="menu-button primary-button" />
+            <ui:Button text="Exit Game" name="ExitButton" class="menu-button secondary-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

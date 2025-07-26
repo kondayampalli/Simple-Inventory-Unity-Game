@@ -1,0 +1,86 @@
+USS STYLES FOR UI TOOLKIT Create a USS file in your project and add these styles.inventory-slot {
+    width: 64px;
+    height: 64px;
+    border-width: 1px;
+    border-color: rgb(102, 102, 102);
+    background-color: rgb(51, 51, 51);
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.item-icon {
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+}
+
+.quantity-label {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.sell-button {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 30px;
+    height: 16px;
+    font-size: 10px;
+    background-color: rgb(255, 107, 107);
+    border-color: rgb(255, 82, 82);
+    color: white;
+}
+
+.shop-item {
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(102, 102, 102);
+    justify-content: space-between;
+}
+
+#InventoryPanel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(79, 79, 79, 0.8);
+    border-width: 2px;
+    border-color: rgb(102, 102, 102);
+    padding: 20px;
+    border-left-color: rgb(229, 227, 227);
+    border-right-color: rgb(229, 227, 227);
+    border-top-color: rgb(229, 227, 227);
+    border-bottom-color: rgb(229, 227, 227);
+}
+
+#InventoryGrid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#ShopPanel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(106, 106, 106, 0.8);
+    border-width: 2px;
+    border-color: rgb(102, 102, 102);
+    padding: 20px;
+}

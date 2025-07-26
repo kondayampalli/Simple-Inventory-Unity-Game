@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/INVENTORY%20SYSTEM/UI/InventoryStyleSheet.uss?fileID=7433441132597879392&amp;guid=0dada90d4ddb5bc4da7f3d6ea63b26b7&amp;type=3#InventoryStyleSheet" />
+    <ui:VisualElement name="InventoryPanel" style="display: none;">
+        <ui:Label text="Inventory" style="font-size: 18px; color: white; margin-bottom: 10px; -unity-text-align: upper-center;" />
+        <ui:Label name="MoneyLabel" text="Money: $0" style="font-size: 14px; color: yellow; margin-bottom: 10px;" />
+        <ui:ScrollView name="InventoryScrollView" style="flex-grow: 1;">
+            <ui:VisualElement name="InventoryGrid" style="flex-direction: row; flex-wrap: wrap;" />
+        </ui:ScrollView>
+        <ui:Button name="CloseButton" text="Close" style="width: 80px; height: 30px; align-self: center; margin-top: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>
